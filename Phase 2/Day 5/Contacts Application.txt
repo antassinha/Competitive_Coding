@@ -1,0 +1,18 @@
+our task is to design a contacts application that supports two features :
+
+add name where name is a string that denotes the name of the contact. This operation must store a new contact by the name name.
+
+find partial where partial is a string denoting a part of the name to search for in the directory. It must count the number of contacts that start with partial and print the count.
+
+Sample Input 0
+4
+add hack
+add hackerrank
+find hac
+find hak
+
+Sample Output 0
+2
+0
+
+Code:

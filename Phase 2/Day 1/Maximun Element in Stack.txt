@@ -1,0 +1,45 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+void max(int a[],int x){
+    int m=a[0];
+    
+    for(int i=1;i<x;i++){
+        if(a[i]>m)
+            m=a[i];
+    }
+    
+    cout<<m<<endl;
+}
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    int n;
+    cin>>n;
+    int a[n];
+    int q,d,x=0;
+    
+    for(int i=0;i<n;i++){
+        cin>>q;
+        
+        if(q==1){
+            cin>>d;
+            a[x++]=d;
+            
+        }
+        
+        else if(q==2){
+            x--;
+        }
+        else{
+            max(a,x);
+        }
+    }
+    
+    return 0;
+}

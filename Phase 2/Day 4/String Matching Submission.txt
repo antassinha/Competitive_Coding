@@ -1,0 +1,26 @@
+Write a program that takes two strings as input and prints "yes" if the second string is a substring of the first string and "no" otherwise.
+
+Sample Input 0
+Hello World!
+Hello
+
+Sample Output 0
+yes
+
+
+Code:
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    char s[1000],w[1000];
+    scanf("%[^\n]%*c",s);
+    scanf("%s",w);
+    if(strstr(s,w)!=NULL)
+        printf("yes");
+    else printf("no");
+    return 0;
+}

@@ -1,0 +1,33 @@
+Decimal to Binary:
+
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+void dtob(long int n)
+{
+    int BN[1000];
+    int i=0;
+    while(n>0)
+    {
+        BN[i]=n%2;
+        n=n/2;
+        i++;
+    }
+    for(int j=i-1;j>=0;j--)
+        cout<<BN[j];
+}
+
+
+int main() {
+   long int n;
+    cin>>n;
+    if(n==0)
+        cout<<"0";
+    else dtob(n);
+    
+    return 0;
+}

@@ -1,0 +1,16 @@
+A complete binary tree is a binary tree where every node except the leaf node has two child nodes and the last level of the tree for an edge-height h has 2^h leaf-nodes.
+
+Your task is simple, given the postorder traversal for a complete binary tree, print it's inorder traversal.
+
+The elements in the binary tree are of type character i.e. each node stores one character value.
+
+Sample Input 0
+
+BCA
+Sample Output 0
+
+BAC
+
+
+
+Code:

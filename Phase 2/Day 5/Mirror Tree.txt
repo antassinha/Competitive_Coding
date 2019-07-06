@@ -1,0 +1,58 @@
+Sample Input 0
+
+3
+1 2 R
+1 3 L
+1 2 L
+1 3 R
+Sample Output 0
+
+yes
+Explanation 0
+
+The first tree is
+
+  1 
+
+ / \ 
+
+3   2
+The second tree is
+
+  1 
+
+ / \ 
+
+2   3
+Clearly, both the trees are mirrors of each other.
+
+
+
+Code:
+Sample Input 0
+
+3
+1 2 R
+1 3 L
+1 2 L
+1 3 R
+Sample Output 0
+
+yes
+Explanation 0
+
+The first tree is
+
+  1 
+
+ / \ 
+
+3   2
+The second tree is
+
+  1 
+
+ / \ 
+
+2   3
+Clearly, both the trees are mirrors of each other.
